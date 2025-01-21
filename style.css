@@ -129,10 +129,14 @@
 .card a{
     text-decoration: none;
 }
-.stor{
-    background-image: url(./assets/bg.png);
-    background: linear-gradient(to top, rgb(255, 207, 119) 30%, white 70%);
+.stor {
+    background: linear-gradient(to top, rgba(255, 207, 119, 0.7) 30%, rgba(255, 255, 255, 0.7) 70%), 
+                url(./assets/bg.png);
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 20px;
 }
+
 .bigimg img{
     width: 540px;
     height: 337px;
@@ -316,9 +320,9 @@
     font-size: 26px;
     margin-bottom: 20px;
 }
-.btnn{
-    margin-bottom: ;
-}
+
+
+
 
 
                                                             /* mini screeen */
