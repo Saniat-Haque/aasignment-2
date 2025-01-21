@@ -12,6 +12,9 @@
     display: flex;
     justify-content: space-between;
 }
+.btn button:hover{
+    background-color: rgb(185, 121, 0);
+}
 .logo{
     display: flex;
     align-items: center;
