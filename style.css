@@ -327,7 +327,7 @@
 
                                                             /* mini screeen */
 
-@media (max-width: 390px){
+@media (max-width: 500px){
     .line{
         display: block;
         margin-top: -10px;
