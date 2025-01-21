@@ -1,0 +1,494 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.navBar{
+    max-width: 1160px;
+    height: 102px;
+    align-items: center;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    display: flex;
+    align-items: center;
+
+}
+.logo p{
+    font-size: 32px;
+    font-weight: bold;
+}
+.middle{
+    display: flex;
+    width: 387px;
+    justify-content: space-between;
+}
+.middle a{
+    text-decoration: none;
+}
+.bar{
+    display: none;
+}
+
+.herotext{
+    max-width: 640px;
+}
+.bigtxt{
+    font-size: 56px;
+    font-weight: bold;
+}
+.heromain{
+    display: flex;
+    width: 1158px;
+    height: 575px;
+    gap: 50px;
+    margin: auto;
+    align-items: center;
+}
+.heromain h3{
+    margin-top: 24px;
+    margin-bottom: 24px;
+    font-weight: 200;
+    opacity: 40%;
+    max-width: 530px;
+}
+.heroimg{
+    width: 468px;
+    height: 575px;
+}
+.enro{
+    font-size: 20px; font-weight: bold; width: 197px; height: 50px; border: none; border-radius: 12px; background-color: black; color: white; 
+}
+.midt p{
+    font-size: 46px;
+    font-weight: bold;
+
+}
+.midt{
+    display: flex;
+    margin-top: 60px;
+    justify-content: center;
+}
+.stand{
+    background-image: url(./assets/bg.png);
+}
+
+.container{
+    display: flex;
+}
+.card {
+    margin-top: 80px;
+    
+    width: 367px;
+    height: 476px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid;
+    gap: 24px;
+    text-align: center;
+    margin: auto;
+    border-radius: 18px;
+    z-index: 1;
+    background: linear-gradient(to bottom, #DEF5FF 0.1%, white 30%);
+}
+.ic{
+    display: flex;
+    margin-top: 80px;
+    justify-content: center;
+    gap: 10px;
+
+}
+.ico{
+    
+    height: 60px;
+    width: 60px;
+    background-color: orange;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card img{
+    height: 136px;
+    width: 136px;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.card a{
+    text-decoration: none;
+}
+.stor{
+    background-image: url(./assets/bg.png);
+    background: linear-gradient(to top, rgb(255, 207, 119) 30%, white 70%);
+}
+.bigimg img{
+    width: 540px;
+    height: 337px;
+    border-radius:16px 16px 0 0 ;
+}
+.stext{
+    padding: 50px;
+    position: relative;
+}
+.stext h2{
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+.line{
+    display: none;
+}
+.date p{
+    font-size: 15px;
+    font-weight: 500;
+    color: white;
+    
+}
+.date{
+    background-color: #3CD8E8;
+    border: none;
+    border-radius: 47px;
+    display:inline-block;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: absolute;
+    top: -20px;
+}
+.datee{
+    background-color: #3CD8E8;
+    border: none;
+    border-radius: 47px;
+    display:inline-block;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: absolute;
+    top: 165px;
+    margin-left: 30px;
+}
+.pp  {
+    font-size: 15px;
+    font-weight: bold;
+    padding: 20px;
+    margin-top: 19px;
+    line-height: 28px;
+    
+   
+}
+.y{
+    padding-top: 20px;
+    padding-left: 10px;
+    font-weight: bold;
+    font-size: 15px;
+}
+.stext p{
+    font-weight: 500;
+    font-size: 15px;
+    opacity: 70%;
+}
+.stor h1{
+    font-size: 46px;
+    font-weight: bold;
+    
+    text-align: center;
+    margin-top: 120px;
+    margin-bottom: 80px;
+}
+.allcard{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 80px;
+}
+.bigimg{
+    width: 540px;
+    height: 630px;
+    border-radius: 16px;
+    border: none;
+    background-color: white;
+}
+
+.fourcar{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    width: 600px;
+    height: 622px;
+
+}
+.fimg{
+    width: 290px;
+    height: 300px;
+    background-color: white;
+    border: none;
+    border-radius: 16px;
+    position: relative;
+
+}
+.fimg img{
+    border-radius: 16px 16px 0 0;
+}
+.btnn{
+    background-color: black;
+    border: none;
+    color: white;
+    height: 50px;
+    width: 197px;
+    border-radius: 12px;
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    margin: auto;
+}
+.gimg{
+    display: none;
+}
+
+.ee{
+    background-color: #95B226;
+    color: white;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #01ACFD;
+    height: 519px;
+    width: 100%;
+}
+.y{
+    display:none ;
+}
+.mini{
+    display: flex;
+    width: 1070px;
+    height: 222px;
+    justify-content: space-between;
+}
+.log{
+    display: flex;
+    align-items: center;
+    color: white;
+    margin-bottom: 30px;
+}
+.log h1{
+    font-weight: bold;
+    font-size: 42px;
+}
+.left p{
+    max-width: 400px ;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+
+}
+.mid ul li{
+    color: white;
+    list-style-type: none;
+    margin-bottom: 25px;
+}
+.abs{
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.right h2 {
+    color: white;
+    font-weight: bold;
+    font-size: 26px;
+    margin-bottom: 20px;
+}
+.btnn{
+    margin-bottom: ;
+}
+
+
+                                                            /* mini screeen */
+
+@media (max-width: 390px){
+    .line{
+        display: block;
+        margin-top: -10px;
+    }
+    .z{
+        display: none;
+    }
+    .y{
+        display: block;
+    }
+    .logo p, .middle, .btn{
+        display: none;
+    }
+    .bar{
+        display: block;
+        
+    }
+    .navBar{
+        
+        align-items: center;
+        width: 350px;
+        height: 70px;
+        padding-top: 30px;
+        margin-bottom: 40px;
+        
+    }
+    .heromain{
+        display: flex;
+        flex-direction: column-reverse;
+        width: 300px;
+        height: 725px;
+        justify-content: center;
+        align-items: center;
+        
+
+    }
+    .heroimg{
+        display: flex;
+        
+        width: 336px;
+        height: 413px;
+        
+    }
+    
+    .herotext{
+        width: 330px;
+        height: 252px;
+        
+        justify-content: center;
+    }
+    .bigtxt{
+        font-size: 36px;
+        font-weight: bold;
+        text-align: center;
+        
+    }
+   .herotext h3{
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    opacity: 100%;
+   }
+   
+   .enro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    
+   }
+   .container{
+    flex-direction: column;
+    gap: 15px;
+   }
+   .card{
+    width: 357px;
+    height: 321px;
+   }
+   .midt p {
+    font-size: 26px;
+
+   }
+   .ic{
+    display: none;
+   }
+   .stor h1{
+    font-size: 26px;
+   }
+   .bigimg{
+    display: none;
+   }
+   .fimg{
+    width: 173px;
+    height: 179px;
+   }
+   .fimg img{
+    width: 173px;
+    height: 105px;
+   }
+   .pp{
+    padding: 10px;
+    margin: 0px;
+    line-height: 20px;
+   }
+   .datee{
+    font-size: 9px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    top: 95px;
+    color: white;
+   }
+   .gimg {
+    display: block;
+   
+    
+   }
+   .btnn{
+    font-size: 12px;
+    border-radius: 12px;
+    height: 30px;
+    width: 100px;
+   }
+   .allcard{
+    margin-bottom: 20px;
+   }
+   .ee{
+    background-color: #5D58F0;
+    color: white;
+}
+.aa{
+    background-color: #95B226;
+}
+.fourcar{
+    justify-content: center;
+}
+.footer{
+    height: 642px;
+}
+.mini{
+    flex-direction: column;
+    padding-left: 20px;
+    justify-content: center;
+}
+.log h1{
+    font-size: 45px;
+}
+.mini p{
+    font-size: 16px;
+    margin-bottom: 50px;
+
+}
+.abs{
+    font-size: 20px;
+
+}
+.mid ul li{
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+.right h2{
+    font-size: 22px;
+
+}
+.uu{
+    padding: 7px;
+}
+    
+   
+}
